@@ -1,6 +1,7 @@
+package rootuser;
+
 public enum RootUserEnum {
     ROOTUSER;
-
     private RootUser rootUser;
 
     private RootUserEnum() {

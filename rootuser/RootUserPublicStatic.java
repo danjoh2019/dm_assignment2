@@ -1,3 +1,5 @@
+package rootuser;
+
 public class RootUserPublicStatic {
     private static RootUser rootUser = new RootUser();
 

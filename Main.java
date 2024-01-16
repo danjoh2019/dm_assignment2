@@ -1,6 +1,11 @@
+import rootuser.RootUser;
+import rootuser.RootUserEnum;
+import rootuser.RootUserLazy;
+import rootuser.RootUserPublicStatic;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Create a RootUser with new");
+        System.out.println("Create a RootUser with \'new\'");
         RootUser rootUser = new RootUser();
         System.out.println(rootUser);
         

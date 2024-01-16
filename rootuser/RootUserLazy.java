@@ -1,3 +1,5 @@
+package rootuser;
+
 public class RootUserLazy {
     private static RootUser rootUser;
 
