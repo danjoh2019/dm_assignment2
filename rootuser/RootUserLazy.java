@@ -1,14 +1,14 @@
 package rootuser;
 
 public class RootUserLazy {
-    private static RootUser rootUser;
+    private static RootUser instance;
 
     private RootUserLazy() {}
 
-    public static RootUser getRootUser() {
-        if (rootUser == null) {
-            rootUser = new RootUser();
+    public static RootUser getInstance() {
+        if (instance == null) {
+            instance = new RootUser();
         }
-        return rootUser;
+        return instance;
     }
 }

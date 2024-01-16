@@ -1,11 +1,11 @@
 package rootuser;
 
 public class RootUserPublicStatic {
-    private static RootUser rootUser = new RootUser();
+    private static RootUser instance = new RootUser();
 
     private RootUserPublicStatic() {}
 
-    public static RootUser getRootUser() {
-        return rootUser;
+    public static RootUser getInstance() {
+        return instance;
     }
 }

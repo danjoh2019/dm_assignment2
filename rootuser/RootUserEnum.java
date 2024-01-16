@@ -1,14 +1,14 @@
 package rootuser;
 
 public enum RootUserEnum {
-    ROOTUSER;
-    private RootUser rootUser;
+    INSTANCE;
+    private RootUser instance;
 
     private RootUserEnum() {
-        rootUser = new RootUser();
+        instance = new RootUser();
     }
 
-    public RootUser getRootUser() {
-        return rootUser;
+    public RootUser getInstance() {
+        return instance;
     }
 }
